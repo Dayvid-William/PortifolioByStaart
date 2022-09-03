@@ -1,4 +1,10 @@
     html {
         background-color: #1E1E1E;
         color: #ffffff;
+        font-size: 62.5%;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
     }
