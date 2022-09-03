@@ -8,3 +8,22 @@
         font-family: 'Poppins', sans-serif;
         font-size: 1.6rem;
     }
+
+    .inspect {
+        border: 5px solid red;
+    }
+
+    .nav {
+        padding: 2rem 6rem;
+    }
+
+    .navLinks {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    .navLinks a {
+        color: #ffffff;
+        text-decoration: none;
+    }
