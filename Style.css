@@ -72,3 +72,19 @@
     .about {
         background-color: #162340;
     }
+
+    .projectImg {
+        width: 24rem;
+        height: 18rem;
+        margin-right: 2.5rem;
+        border-radius: 0.6rem;
+
+    }
+
+    .projectTitle  {
+        font-size: 3rem;
+    }
+
+    .projects {
+        margin: 4rem 0;
+    }
