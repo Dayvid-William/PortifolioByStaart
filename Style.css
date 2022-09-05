@@ -8,15 +8,20 @@
         font-family: 'Poppins', sans-serif;
         font-size: 1.6rem;
     }
-
-    .inspect {
-        border: 5px solid red;
-    }
-
+    
     section {
         padding: 5rem;
         max-width: 96rem;
         margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    
+    .inspect {
+        border: 5px solid red;
     }
 
     .itemsCenter {
@@ -62,4 +67,8 @@
         color: #ffffff;
         text-decoration: none;
         font-size: 1.6rem;
+    }
+
+    .about {
+        background-color: #162340;
     }
