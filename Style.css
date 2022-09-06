@@ -9,6 +9,7 @@
         font-size: 1.6rem;
     }
     
+    footer,
     section {
         padding: 5rem;
         max-width: 96rem;
@@ -18,6 +19,10 @@
     h2 {
         font-size: 4rem;
         font-weight: 700;
+    }
+
+    footer {
+        flex-direction: column;
     }
     
     .inspect {
@@ -87,4 +92,13 @@
 
     .projects {
         margin: 4rem 0;
+    }
+
+    .icons {
+       display: flex;
+       gap: 5rem;
+    }
+
+    .finished {
+        font-size: 1.5rem;
     }
