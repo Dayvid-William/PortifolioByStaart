@@ -79,7 +79,7 @@
     }
 
     .projectImg {
-        width: 24rem;
+        width: auto;
         height: 18rem;
         margin-right: 2.5rem;
         border-radius: 0.6rem;
@@ -101,4 +101,42 @@
 
     .finished {
         font-size: 1.5rem;
+    }
+    
+    .navLinks :hover {
+        text-decoration: underline;
+        font-weight: 900;
+    }
+
+    @media(max-width: 1200px) {
+        .itemsCenter {
+            flex-direction: column;
+        }
+        footer,
+        section {
+            padding: 5rem;
+        }
+
+        .main {
+            margin-bottom: 2rem;
+        }
+
+        .mainTitle {
+            font-size: 3rem;
+        }
+
+        .projectImg {
+            width: 38rem;
+            height: auto;
+        }
+        
+        .navLinks {
+            justify-content: center;
+        }
+
+        .avatar {
+            margin: 0;
+            width: 18rem;
+            height: 18rem;
+        }
     }
