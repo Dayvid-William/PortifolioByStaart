@@ -1,6 +1,6 @@
     html {
-        background-color: #1a1f2f;
-        color: #ffffff;
+        background-color: #ffffff;
+        color: #000000;
         font-size: 62.5%;
     }
 
@@ -46,7 +46,7 @@
     }
 
     .navLinks a {
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
         font-size: 1.8rem;
     }
@@ -72,15 +72,15 @@
 
     .button {
         border-radius: 0.2rem;
-        background-color: #0039CC;
+        background-color: #2fc0ee;
         padding: 1rem 2rem;
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
         font-size: 1.6rem;
     }
 
     .about {
-        background-color: #162340;
+        background-color: #2fc0ee;
     }
 
     .projectImg {
@@ -106,11 +106,75 @@
 
     .finished {
         font-size: 1.5rem;
+        font-weight: 600;
     }
     
     .navLinks :hover {
         text-decoration: underline;
         font-weight: 900;
+    }
+
+    .slide {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerGeneral {
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 96rem;
+        background-color: #efefef;
+    }
+
+    .cardImage {
+        position: relative;
+        margin-left: 32%;
+        justify-content: center;
+        height: 17rem;
+        width: 17rem;
+        background: #fff;
+        padding: 0.19rem;
+    }
+
+    .cardImage
+    .cardContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.6rem 0.9rem ;
+    } 
+
+    h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem;
+    }
+    .cardImg {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border-radius: 50%;
+        border: 0.3rem solid #2fc0ee ;
+    }
+
+    .slideContent {
+        margin: 0 3rem;
+    }
+
+    .card {
+        width: 50rem;
+        border-radius: 1.6rem;
+        background-color: #fff;
     }
 
     @media(max-width: 1200px) {
