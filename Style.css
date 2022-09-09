@@ -71,7 +71,7 @@
     }
 
     .button {
-        border-radius: 0.2rem;
+        border-radius: 0.4rem;
         background-color: #2fc0ee;
         padding: 1rem 2rem;
         color: #000000;
@@ -130,7 +130,7 @@
         justify-content: center;
         align-items: center;
         max-width: 96rem;
-        background-color: #efefef;
+        background-color: #ffffff;
     }
 
     .cardImage {
@@ -141,21 +141,27 @@
         width: 17rem;
         background: #fff;
         padding: 0.19rem;
-    }
+    } 
 
-    .cardImage
+    .imgContent
     .cardContent {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0.6rem 0.9rem ;
-    } 
+    }
+
+    .imgContent {
+        row-gap:0.3rem;
+    }
 
     h3 {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 3rem;
+        font-size: 2.7rem;
+        font-weight: 700;
     }
     .cardImg {
         display: flex;
@@ -167,6 +173,12 @@
         border: 0.3rem solid #2fc0ee ;
     }
 
+    .description {
+        font-size: 1.8rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
     .slideContent {
         margin: 0 3rem;
     }
@@ -175,6 +187,15 @@
         width: 50rem;
         border-radius: 1.6rem;
         background-color: #fff;
+    }
+
+    .buttonProject {
+        border: none;
+        border-radius: 0.4rem;
+        font-size: 1.8rem;
+        color: #000000;
+        padding: 0.5rem 1rem;
+        background-color: #2fc0ee ;
     }
 
     @media(max-width: 1200px) {
