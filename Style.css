@@ -77,6 +77,8 @@
         color: #000000;
         text-decoration: none;
         font-size: 1.6rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
 
     .about {
@@ -115,87 +117,59 @@
     }
 
     .slide {
-        display: flex;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        align-items: center;
-        justify-content: center;
+        font-family: 'Poppons', sans-serif;
     }
 
-    .containerGeneral {
-        min-height: 50vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-items: center;
-        max-width: 96rem;
-        background-color: #ffffff;
+    .slide-body {
+       min-height: 100vh;
+       max-width: 96rem;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #efefef;
     }
 
-    .cardImage {
+    .slide-content {
+        margin: 0 2.5rem;
+    }
+
+    .card-image {
         position: relative;
-        margin-left: 32%;
-        justify-content: center;
-        height: 17rem;
-        width: 17rem;
-        background: #fff;
-        padding: 0.19rem;
-    } 
-
-    .imgContent
-    .cardContent {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0.6rem 0.9rem ;
+        height: 9.37rem;
+        width: 9.37rem;
     }
 
-    .imgContent {
-        row-gap:0.3rem;
-    }
-
-    h3 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 3rem;
-        font-size: 2.7rem;
-        font-weight: 700;
-    }
-    .cardImg {
-        display: flex;
+    .card-image 
+    .card-img {
         height: 100%;
         width: 100%;
         object-fit: cover;
         border-radius: 50%;
-        border-radius: 50%;
-        border: 0.3rem solid #2fc0ee ;
+        border: 0.25rem solid #3564a9;
     }
 
-    .description {
-        font-size: 1.8rem;
-        font-weight: 500;
-        text-align: center;
-    }
-
-    .slideContent {
-        margin: 0 3rem;
+    .name {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: #000000;
     }
 
     .card {
-        width: 50rem;
-        border-radius: 1.6rem;
+        border-radius: 1.56rem;
         background-color: #fff;
+
     }
 
-    .buttonProject {
-        border: none;
-        border-radius: 0.4rem;
-        font-size: 1.8rem;
-        color: #000000;
-        padding: 0.5rem 1rem;
-        background-color: #2fc0ee ;
+    .img-content 
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6rem 0.9rem;
     }
 
     @media(max-width: 1200px) {
